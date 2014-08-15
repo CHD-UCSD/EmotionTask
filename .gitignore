@@ -1,0 +1,9 @@
+audio/
+data/
+data_masked/
+*.wav
+images/
+old\ versions/
+Radboud\ Movies/
+run2_processed_data/
+videos/
