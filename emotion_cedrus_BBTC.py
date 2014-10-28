@@ -250,6 +250,8 @@ def run_trial(dev, mov, thisTrial, trial_number):
             else: pressed = None
         else: pressed = None
         if 'escape' in event.getKeys(): save_and_quit()
+        if mov._player.time >= mov.duration:
+            break
     response_time = trial_clock.getTime() - response_start
     
     #change frame and pause movie
